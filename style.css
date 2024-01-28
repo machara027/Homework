@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+
+
+
+.container{
+    display: flex;
+    margin:  5px auto;
+   
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    
+}
+
+
+
+.container-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.items-1{
+    width: 150px;
+    margin-left: 30px;
+    background-color: rgb(192, 163, 163);
+    height: 150px;
+    border-radius: 50%;
+}
+
+.items-2{
+    width: 150px;
+    margin:  20px 0;
+    background-color: tomato;
+    height: 30px;
+}
+.items-3{
+    width: 200px;
+    background-color: rgb(112, 85, 85);
+    height: 30px;
+}
+
+
